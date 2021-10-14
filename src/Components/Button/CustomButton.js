@@ -10,9 +10,7 @@ export const CustomButton = ({
     Size,
     className
 }) => {
-
         const checkClassName = className ? className : "";
-
     return (
         <button className={`${styles.myBtn} ${styles[Style]} ${styles[Shape]} ${styles[Size]} ${checkClassName}`} onClick={onClick} type={type}>
             {children}
